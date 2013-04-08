@@ -152,7 +152,7 @@ class mysql::params {
           $service_name          = 'mysql'
           $client_package_name   = 'virtual/mysql'
           $server_package_name   = 'dev-db/mysql'
-          $socket                = '/var/run/mysqld/mysql.sock'
+          $socket                = '/var/run/mysqld/mysqld.sock'
           $pidfile               = '/var/run/mysqld/mysqld.pid'
           $config_file           = '/etc/mysql/my.cnf'
           $log_error             = '/var/log/mysql/mysqld.log'
